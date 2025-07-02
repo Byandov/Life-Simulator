@@ -10,27 +10,21 @@ using System.Windows.Forms;
 
 namespace Byandov
 {
-    public partial class Form1 : Form
+    public partial class Form4 : Form
     {
-        public Form1()
+        public Form4()
         {
             InitializeComponent();
         }
 
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
-         
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form2 Birth = new Form2();
+            Form1 Birth = new Form1();
             Birth.Show();
             Hide();
         }
