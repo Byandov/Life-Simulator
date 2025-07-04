@@ -10,17 +10,22 @@ using System.Windows.Forms;
 
 namespace Byandov
 {
-    public partial class Form5 : Form
+    public partial class Form6 : Form
     {
-        public Form5()
+        public Form6()
         {
             InitializeComponent();
         }
 
+        private void Form6_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Form6 preteen = new Form6();
-            preteen.Show();
+            Form7 school = new Form7();
+            school.Show();
             Hide();
         }
     }

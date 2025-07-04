@@ -44,6 +44,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Continue....";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -66,7 +67,6 @@
             this.ClientSize = new System.Drawing.Size(1075, 787);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form5";
             this.Text = "Form5";
             this.ResumeLayout(false);

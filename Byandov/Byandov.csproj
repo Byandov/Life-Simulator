@@ -76,6 +76,18 @@
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -92,6 +104,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -130,6 +148,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Copilot_20250702_122603.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copilot_20250703_083619.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copilot_20250703_090754.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copilot_20250703_091329.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copilot_20250703_092135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copilot_20250703_0921351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copilot_20250703_092443.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

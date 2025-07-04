@@ -71,11 +71,12 @@
             this.label1.Location = new System.Drawing.Point(69, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1072, 192);
+            this.label1.Size = new System.Drawing.Size(1052, 214);
             this.label1.TabIndex = 2;
             this.label1.Text = "First light. First colors. First grip on a crayon. The world is soft and quiet, b" +
     "ut your imagination is already loud. Before words, before steps—just shapes, sha" +
     "des, and wonder.";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form3
             // 
